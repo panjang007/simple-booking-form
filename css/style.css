@@ -21,8 +21,17 @@
   font-weight: lighter;
 }
 
+#usernameInput, #passwordInput {
+    width: 260px;
+}
+
 .input {
   margin-bottom: 10px;
+}
+
+#loginButton, #registerButton {
+    width: 80px;
+    height: 30px;
 }
 
 #justifyCenterRegisterButton,
