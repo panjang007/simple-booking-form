@@ -7,15 +7,38 @@
     <link rel="stylesheet" href="../upskilling-myself/css/style.css" />
   </head>
   <body>
-    <img src="#" alt="#" id="logoAtLogin" />
-    <h3 id="trademarkAtLogin">Welcome to your safe space</h3>
-    <form action="loginProcess.php" id="loginForm">
-      <label for="username" id="usernameLabel">Username: </label>
-      <input type="text" id="usernameInput" name="username" required />
-      <label for="password" id="passwordLabel">Password: </label>
-      <input type="password" id="passwordInput" name="password" required />
-      <button type="submit" id="loginButton">Login</button>
-    </form>
+    <div id="loginForm">
+      <div>
+        <img src="#" alt="#" id="logoAtLogin" />
+      </div>
+      <div>
+        <h3 class="trademark">Welcome to your safe space</h3>
+      </div>
+      <form action="loginProcess.php">
+        <div class="label">
+          <label for="username" id="usernameLabel">Username: </label>
+        </div>
+        <div class="input">
+          <input type="text" id="usernameInput" name="username" required />
+        </div>
+        <div class="label">
+          <label for="password" id="passwordLabel">Password: </label>
+        </div>
+        <div class="input">
+          <input type="password" id="passwordInput" name="password" required />
+        </div>
+        <div id="justifyCenterLoginButton">
+          <div>
+            <button type="submit" id="loginButton">Login</button>
+          </div>
+        </div>
+        <div id="justifyCenterRegisterButton">
+          <div>
+            <button type="submit" id="registerButton">Sign Up</button>
+          </div>
+        </div>
+      </form>
+    </div>
     <script src="../upskilling-myself/js/script.js"></script>
   </body>
 </html>
