@@ -1,18 +1,17 @@
-#loginForm {
+.container {
   display: flex;
   flex-flow: column wrap;
   /*line 5 is for the position of contents in the container*/
   justify-content: center;
   /*line 7 is for aligning the container to the center of page*/
   align-items: center;
-  /*right now the page is 100vh in height*/
-  height: 100vh;
 }
 
 .trademark {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;
+  margin-top: 0px;
 }
 
 .label {
@@ -32,6 +31,19 @@
 #loginButton, #registerButton {
     width: 80px;
     height: 30px;
+}
+
+#logoAtLogin {
+  width: 300px;
+}
+
+#logoAtLoginDiv {
+  margin: 20px;
+  justify-content: center;
+}
+
+#trademarkDiv {
+  margin-top: 0px;
 }
 
 #justifyCenterRegisterButton,
